@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>wuzhch</title>
+    <link>http://wuzhch.github.io/</link>
+    <description>Recent content on wuzhch</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 11 Jun 2016 18:36:24 +0800</lastBuildDate>
+    <atom:link href="http://wuzhch.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>中介者模式</title>
+      <link>http://wuzhch.github.io/design_pattern/mediator/</link>
+      <pubDate>Sat, 11 Jun 2016 18:36:24 +0800</pubDate>
+      
+      <guid>http://wuzhch.github.io/design_pattern/mediator/</guid>
+      <description>
+
+&lt;h1 id=&#34;中介者-mediator-模式&#34;&gt;中介者（Mediator）模式&lt;/h1&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;用一个中介对象来封装一系列的对象交互。中介者使各对象不需要显式地相互引用，从而使其耦合松散，而且可以独立地改变它们之间的交互。&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;一般的做法当各个类需要交互时，可先在初始化的时候传入需要调用的指针用于后续的调用，存在的问题就是在单个类保存的指针过多或类与类之间的耦合过大，此时可考虑创建个中介者类，类间的交互通过中介者类完成，当然也存在缺点就是中介者类的处理过于复杂。&lt;/p&gt;
+
+&lt;p&gt;其实平常写的各个实现类也可认为是中介者类，某个实现类调用各个功能类时会传入自身指针，各个功能类都通过实现类实现交互。&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
